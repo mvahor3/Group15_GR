@@ -1,0 +1,167 @@
+.top-nav
+{
+    height: 800px;
+    width: 80%;
+    float: left;
+}
+
+.top-picks
+{
+    height: 800px;
+    width: 20%;
+    float: right;
+}
+
+.staff-picks, .healty-picks, .trending-picks
+{
+    text-align: center;
+    font-weight: bold;
+}
+
+.search-container
+{
+    float: left;
+}
+
+.quick-button-container
+{
+    float: right;
+    width: 20%;
+    text-align: center;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    font-size: 36px;
+}
+
+#favorites-div
+{
+    color: #000;
+    visibility: hidden;
+    display: none;
+    width: 40;
+    height: 60;
+}
+
+.quick-button-container a:hover
+{
+    color: aqua;
+}
+
+/*
+#favorites-icon:hover > #favorites-div, #favorites-div:hover
+{
+    visibility: visible;
+    display: block;
+    color: red;
+}
+*/
+
+#quick-div
+{
+    visibility: hidden;
+    width: 240px;
+    font-size: 12pt;
+}
+
+#quick-div:hover
+{
+    overflow: auto;
+}
+
+
+
+ul, li
+{
+    list-style-position: inside;
+    color: #000;
+}
+
+ul:hover, li:hover
+{
+    color : aqua;
+}
+
+img
+{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+img:hover
+{
+    border: 2px solid aqua;
+}
+
+#search-title
+{
+    position: absolute;
+    left: 20%;
+    top: 35%;
+    width :500px;
+    height: 100px;
+    overflow: auto;
+    font-weight: bold;
+}
+
+#search-result
+{
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    width :300px;
+    height: 200px;
+    overflow: auto;
+}
+
+#search-result2
+{
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    width :300px;
+    height: 200px;
+    overflow: auto;
+}
+
+#search-result3
+{
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    width :300px;
+    height: 200px;
+    overflow: auto;
+}
+
+#search-description
+{
+    position: absolute;
+    left: 27%;
+    top: 70%;
+    width :300px;
+    height: 200px;
+    overflow: auto;
+}
+
+#result-previous
+{
+    position: absolute;
+    left: 15%;
+    top: 60%;
+    font-size:48px;
+}
+
+#result-next
+{
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    font-size:48px;
+    z-index: 3;
+}
+
+#result-previous:hover, #result-next:hover
+{
+    color:aqua;
+}

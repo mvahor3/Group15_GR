@@ -1,0 +1,90 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-dark-grey.css">
+    <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+  <title>DAMM</title>
+  <meta name="description" content="DAMM the best food reivew site">
+  <meta name="author" content="Daniel, Allan, Moin, Marquise">
+
+</head>
+
+<body class="body w3-text-theme w3-theme-d3">
+        <div class="body-div w3-container">
+            <div class="top-nav">
+                <div class="search-container">
+                    <form action="" onsubmit="return searchFunction()">
+                        <input id="search" type="text" placeholder="Search.." name="search">
+                        <button type="submit"><i class="fa fa-search" onclick="searchFunction()"></i></button>
+                    </form>
+                </div>
+                
+                <div class="quick-button-container w3-theme-14">
+                    <a href="#"><i id="favorites-icon" class="fa fa-star" onmouseover="showQuickDiv('favorites')" onmouseout="hideQuickDiv()"></i></a>
+                    <a href="#"><i class="fa fa-location-arrow" onmouseover="showQuickDiv('location')" onmouseout="hideQuickDiv()"></i></a> 
+                    <a href="#"><i class="fa fa-cutlery" onmouseover="showQuickDiv('reservation')" onmouseout="hideQuickDiv()"></i></a>
+
+                    <div id="quick-div" onmouseover="showQuickDiv('favorites')" onmouseout="hideQuickDiv()">
+                        Sample
+                    </div>
+
+                </div>
+
+                <div id="search-title">
+                    Welcome To DAMM!
+                </div>
+
+                <div id="result-previous">
+                </div>
+
+                <div id="result-next">
+                </div>
+
+                <div id="search-result">
+                </div>
+
+                <div id="search-result2">
+                </div>
+
+                <div id="search-result3">
+                </div>
+
+                <div id="search-description">
+                </div>
+
+            </div>
+
+            <div class="top-picks w3-theme-d5">
+                
+                <div class="staff-picks">
+                    <p> Staff Picks </p>
+                    <li>Texes de Brazil</li>
+                    <li>Taco Place</li>
+                    <li>Burger Supreme</li>
+                </div>
+
+                <div class="healty-picks">
+                    <p> Healty Picks </p>
+                    <li>Vegie Delight</li>
+                    <li>Best Salad</li>
+                    <li>Salad King</li>
+                </div>
+
+                <div class="trending-picks">
+                    <p> Trending Picks </p>
+                    <li>TBK</li>
+                    <li>McDonald's</li>
+                    <li>Gravy House</li>
+                </div>
+            </div>
+        </div>
+
+  <script src="js/scripts.js"></script>
+</body>
+</html>
