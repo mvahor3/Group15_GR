@@ -1,0 +1,9 @@
+{
+    "name":"Joong Boo Market",
+    "rating":["1","2","3"],
+    "image":"Korean_Joon.JPG",
+    "phone":"312-561-2132",
+    "description":"Korean",
+    "address": "3333 N Kimball Ave, Chicago, IL 60618",
+    "hours":"Sunday: 11AM–10PM\nSaturday: 11AM–10PM \nMonday: 11AM–10PM \nTuesday: 11AM–10PM \nWednesday: 11AM–10PM \nThursday: 11AM–10PM \nFriday: 11AM–10PM \n"
+}

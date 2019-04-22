@@ -1,0 +1,9 @@
+{
+    "name":"Au Cheval",
+    "rating":["1","2","3"],
+    "image":"Burger_AuCheval.jpg",
+    "phone":"312-555-177",
+    "description":"Burger",
+    "address": "800 W Randolph St, Chicago, IL 60607",
+    "hours":"Sunday: 11AM–10PM\nSaturday: 11AM–10PM \nMonday: 11AM–10PM \nTuesday: 11AM–10PM \nWednesday: 11AM–10PM \nThursday: 11AM–10PM \nFriday: 11AM–10PM \n"
+}
