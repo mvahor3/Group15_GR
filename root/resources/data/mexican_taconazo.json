@@ -1,9 +1,9 @@
 {
-    "name":"Taconazo",
-    "rating":["1","2","3"],
-    "image":"mexican_taconazo.jpg",
-    "phone":"312-123-419",
-    "description":"Tacos",
-    "address": "4124 W North Ave, Chicago, IL 60639",
-    "hours":"Sunday: 11AM–10PM\nSaturday: 11AM–10PM \nMonday: 11AM–10PM \nTuesday: 11AM–10PM \nWednesday: 11AM–10PM \nThursday: 11AM–10PM \nFriday: 11AM–10PM \n"
+  "name": "Taconazo",
+  "rating": [ "1", "2", "3" ],
+  "image": "mexican_taconzao.png",
+  "phone": "312-123-419",
+  "description": "Tacos",
+  "address": "4124 W North Ave, Chicago, IL 60639",
+  "hours": "Sunday: 11AM–10PM\nSaturday: 11AM–10PM \nMonday: 11AM–10PM \nTuesday: 11AM–10PM \nWednesday: 11AM–10PM \nThursday: 11AM–10PM \nFriday: 11AM–10PM \n"
 }
