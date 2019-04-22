@@ -1,0 +1,9 @@
+{
+    "name":"Three Happiness",
+    "rating":["1","2","3"],
+    "image":"chinese_panda.jpg",
+    "phone":"312-144-487",
+    "description":"Chinese",
+    "address": "209 W Cermak Rd, Chicago, IL 60616",
+    "hours":"Sunday: 11AM–10PM\nSaturday: 11AM–10PM \nMonday: 11AM–10PM \nTuesday: 11AM–10PM \nWednesday: 11AM–10PM \nThursday: 11AM–10PM \nFriday: 11AM–10PM \n"
+}

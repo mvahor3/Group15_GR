@@ -1,0 +1,9 @@
+{
+    "name":"loumalnatis",
+    "rating":["1","2","3"],
+    "image":"pizza_loumalnatis.jpg",
+    "phone":"312-003-177",
+    "description":"Pizza",
+    "address": "3986 N Avondale Ave, Chicago, IL 60641",
+    "hours":"Sunday: 11AM–10PM\nSaturday: 11AM–10PM \nMonday: 11AM–10PM \nTuesday: 11AM–10PM \nWednesday: 11AM–10PM \nThursday: 11AM–10PM \nFriday: 11AM–10PM \n"
+}

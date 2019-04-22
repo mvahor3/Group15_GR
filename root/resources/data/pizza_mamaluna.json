@@ -1,0 +1,9 @@
+{
+    "name":"Mama Lunas",
+    "rating":["1","2","3"],
+    "image":"pizza_mamaluna.jpg",
+    "phone":"312-001-177",
+    "description":"Pizza",
+    "address": "5109 W Fullerton Ave, Chicago, IL 60639",
+    "hours":"Sunday: 11AM–10PM\nSaturday: 11AM–10PM \nMonday: 11AM–10PM \nTuesday: 11AM–10PM \nWednesday: 11AM–10PM \nThursday: 11AM–10PM \nFriday: 11AM–10PM \n"
+}

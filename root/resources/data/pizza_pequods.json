@@ -1,0 +1,9 @@
+{
+    "name":"Pequods",
+    "rating":["1","2","3"],
+    "image":"pizza_pequods.jpg",
+    "phone":"312-001-037",
+    "description":"Pizza",
+    "address": "8520 Fernald Ave, Morton Grove, IL 60053",
+    "hours":"Sunday: 11AM–10PM\nSaturday: 11AM–10PM \nMonday: 11AM–10PM \nTuesday: 11AM–10PM \nWednesday: 11AM–10PM \nThursday: 11AM–10PM \nFriday: 11AM–10PM \n"
+}

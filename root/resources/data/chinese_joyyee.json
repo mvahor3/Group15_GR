@@ -1,0 +1,9 @@
+{
+    "name":"Joy Yee",
+    "rating":["1","2","3"],
+    "image":"chinese_joyyee.jpg",
+    "phone":"312-123-587",
+    "description":"Chinese",
+    "address": "2139 S China Pl, Chicago, IL 60616",
+    "hours":"Sunday: 11AM–10PM\nSaturday: 11AM–10PM \nMonday: 11AM–10PM \nTuesday: 11AM–10PM \nWednesday: 11AM–10PM \nThursday: 11AM–10PM \nFriday: 11AM–10PM \n"
+}

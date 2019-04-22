@@ -1,0 +1,9 @@
+{
+    "name":"Colutas",
+    "rating":["1","2","3"],
+    "image":"pizza_colutas.jpg",
+    "phone":"312-023-177",
+    "description":"Pizza",
+    "address": "4502, 3239 N Harlem Ave, Chicago, IL 60634",
+    "hours":"Sunday: 11AM–10PM\nSaturday: 11AM–10PM \nMonday: 11AM–10PM \nTuesday: 11AM–10PM \nWednesday: 11AM–10PM \nThursday: 11AM–10PM \nFriday: 11AM–10PM \n"
+}
