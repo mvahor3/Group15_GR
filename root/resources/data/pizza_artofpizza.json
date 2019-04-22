@@ -1,7 +1,7 @@
 {
     "name":"Art of Pizza",
     "rating":["1","2","3"],
-    "image":"pizza_artofpizza.jpg",
+    "image":"pizza_artofpizza.png",
     "phone":"312-123-177",
     "description":"Pizza",
     "address": "3033 N Ashland Ave, Chicago, IL 60657",
