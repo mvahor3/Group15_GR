@@ -1,0 +1,9 @@
+{
+    "name":"Mi Tierra",
+    "rating":["1","2","3"],
+    "image":"mexican_mitierra.jpg",
+    "phone":"312-123-459",
+    "description":"Tacos",
+    "address": "2528 S Kedzie Ave, Chicago, IL 60623",
+    "hours":"Sunday: 11AM–10PM\nSaturday: 11AM–10PM \nMonday: 11AM–10PM \nTuesday: 11AM–10PM \nWednesday: 11AM–10PM \nThursday: 11AM–10PM \nFriday: 11AM–10PM \n"
+}

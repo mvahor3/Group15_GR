@@ -1,167 +1,85 @@
-.top-nav
+.body
 {
-    height: 800px;
-    width: 80%;
+    font-weight: 1000;
+}
+/* home-page styles */
+#home-user-options
+{
+    position: absolute;
+    right: 0%;
+}
+
+#home-title
+{
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    color: white;
+    font-size: 24px;
+}
+
+#home-search-form
+{
+    position: absolute;
+    top: 20%;
+    left: 35%;
+}
+
+#home-search-bar
+{
+    width: 400px;
+}
+
+#home-picks
+{
+    position: absolute;
+    float: left;
+    top: 30%;
+    left: 35%;
+}
+
+.home-pick-title
+{
+    text-shadow: 12px;
+    text-decoration-color: blueviolet;
+}
+
+.home-slot-container
+{
     float: left;
 }
 
-.top-picks
-{
-    height: 800px;
-    width: 20%;
-    float: right;
-}
-
-.staff-picks, .healty-picks, .trending-picks
-{
-    text-align: center;
-    font-weight: bold;
-}
-
-.search-container
+.home-pick-slot
 {
     float: left;
+    vertical-align: middle;
+    padding: 12px;
 }
 
-.quick-button-container
+.home-pick-slot:hover
 {
-    float: right;
-    width: 20%;
-    text-align: center;
-    padding: 12px 0;
-    transition: all 0.3s ease;
-    font-size: 36px;
+    border: 2px solid;
+    border-color: crimson;
 }
 
-#favorites-div
+.home-arrow-button
 {
-    color: #000;
-    visibility: hidden;
-    display: none;
-    width: 40;
-    height: 60;
-}
-
-.quick-button-container a:hover
-{
-    color: aqua;
-}
-
-/*
-#favorites-icon:hover > #favorites-div, #favorites-div:hover
-{
-    visibility: visible;
-    display: block;
-    color: red;
-}
-*/
-
-#quick-div
-{
-    visibility: hidden;
-    width: 240px;
-    font-size: 12pt;
-}
-
-#quick-div:hover
-{
-    overflow: auto;
-}
-
-
-
-ul, li
-{
-    list-style-position: inside;
-    color: #000;
-}
-
-ul:hover, li:hover
-{
-    color : aqua;
+    float: left;
+    vertical-align: middle;
 }
 
 img
 {
     width: 100px;
     height: 100px;
-    float: left;
+    float: center;
 }
 
-img:hover
+.home-img
 {
-    border: 2px solid aqua;
+    position: relative;
+    height: -100px;
 }
 
-#search-title
-{
-    position: absolute;
-    left: 20%;
-    top: 35%;
-    width :500px;
-    height: 100px;
-    overflow: auto;
-    font-weight: bold;
-}
-
-#search-result
-{
-    position: absolute;
-    left: 20%;
-    top: 50%;
-    width :300px;
-    height: 200px;
-    overflow: auto;
-}
-
-#search-result2
-{
-    position: absolute;
-    left: 30%;
-    top: 50%;
-    width :300px;
-    height: 200px;
-    overflow: auto;
-}
-
-#search-result3
-{
-    position: absolute;
-    left: 40%;
-    top: 50%;
-    width :300px;
-    height: 200px;
-    overflow: auto;
-}
-
-#search-description
-{
-    position: absolute;
-    left: 27%;
-    top: 70%;
-    width :300px;
-    height: 200px;
-    overflow: auto;
-}
-
-#result-previous
-{
-    position: absolute;
-    left: 15%;
-    top: 60%;
-    font-size:48px;
-}
-
-#result-next
-{
-    position: absolute;
-    left: 50%;
-    top: 60%;
-    font-size:48px;
-    z-index: 3;
-}
-
-#result-previous:hover, #result-next:hover
-{
-    color:aqua;
-}
+/* end home-page styles */
+/* -----------------------------------*/
