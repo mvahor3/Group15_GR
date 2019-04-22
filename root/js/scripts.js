@@ -57,8 +57,8 @@ function loadResult(resultNumber, resturantName)
         resultDiv.innerHTML = '<div class="w3-card" style="width:50%">';
         resultDiv.innerHTML += '<p>' + resturant.name + '</p>';
         resultDiv.innerHTML += '<img src=' + '"' + imageSource + '"' + 'class="home-img"' + 'style="float:left;display:inline;"'+ 'alt="' + resturant.imageSource + '">';
-        resultDiv.innerHTML += '<div style="float:left;display:inline;"> Call: ' + resturant.phone + '       <i class="fa fa-phone"</i></div>';
-        resultDiv.innerHTML += '<div style="float:left;display:inline;"> \nReservere  <i class="fa fa-phone"</i></div>';
+        resultDiv.innerHTML += '<div style="float:left;display:inline;"> <p>Call: ' + resturant.phone + '<i class="fa fa-phone"<p></i></div>';
+        resultDiv.innerHTML += '<div style="float:left;display:inline;"> Reserve<i class="fa fa-phone"</i></div>';
         resultDiv.innerHTML += '<div style="clear:both;"> <i class="fa fa-star"</i> <i class="fa fa-star"</i> <i class="fa fa-star"</i> <i class="fa fa-star"</i> <i class="fa fa-star"</i> </div>';
     });
 }
@@ -71,4 +71,32 @@ function onResultPageLoad()
     loadResult(3, "pizza_colutas");
     loadResult(4, "mexican_arandas");
     loadResult(5, "chinese_chopsticks");
+}
+
+//reservations page
+function loadReservation(resultNumber, resturantName)
+{
+    var resultIDPrefix = "result-search-result";
+
+    $.getJSON( "resources/data/" + resturantName + ".json", function( resturant )
+    {
+        var resultDiv = document.getElementById( resultIDPrefix + resultNumber.toString() );
+        var imageSource = "resources/images/" + resturant.image;
+        resultDiv.innerHTML = '<div class="w3-card" style="width:50%">';
+        resultDiv.innerHTML += '<p>' + resturant.name + '</p>';
+        resultDiv.innerHTML += '<img src=' + '"' + imageSource + '"' + 'class="home-img"' + 'style="float:left;display:inline;"'+ 'alt="' + resturant.imageSource + '">';
+        resultDiv.innerHTML += '<div style="float:left;display:inline;"> <p>Reservation made for: <p></i></div>';
+        resultDiv.innerHTML += '<div style="float:left;display:inline;"> Monday 4/22/2019 @ 4:00 PM</i></div>';
+        resultDiv.innerHTML += '<div style="clear:both;"> <i class="fa fa-star"</i> <i class="fa fa-star"</i> <i class="fa fa-star"</i> <i class="fa fa-star"</i> <i class="fa fa-star"</i> </div>';
+    });
+}
+
+
+function onReservePageLoad()
+{
+    loadReservation(1, "pizza_mamaluna");
+    loadReservation(2, "pizza_loumalnatis");
+    loadReservation(3, "pizza_colutas");
+    loadReservation(4, "mexican_arandas");
+    loadReservation(5, "chinese_chopsticks");
 }

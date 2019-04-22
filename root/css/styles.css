@@ -98,10 +98,22 @@ img
     padding: 10px;
     width: 400px;
     height: 200px;
+    
 }
 
 .result-search-result:hover
 {
     border: 2px solid;
     border-color: crimson;
+}
+
+/*account */
+#account-title
+{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    float: center;
+    color: white;
+    font-size: 24px;
 }
