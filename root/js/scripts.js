@@ -58,7 +58,7 @@ function loadResult(resultNumber, resturantName)
         resultDiv.innerHTML += '<p>' + resturant.name + '</p>';
         resultDiv.innerHTML += '<img src=' + '"' + imageSource + '"' + 'class="home-img"' + 'style="float:left;display:inline;"'+ 'alt="' + resturant.imageSource + '">';
         resultDiv.innerHTML += '<div style="float:left;display:inline;"> Call: ' + resturant.phone + '       <i class="fa fa-phone"</i></div>';
-        resultDiv.innerHTML += '<div style="float:left;display:inline;"> Reservere  <i class="fa fa-phone"</i></div>';
+        resultDiv.innerHTML += '<div style="float:left;display:inline;"> \nReservere  <i class="fa fa-phone"</i></div>';
         resultDiv.innerHTML += '<div style="clear:both;"> <i class="fa fa-star"</i> <i class="fa fa-star"</i> <i class="fa fa-star"</i> <i class="fa fa-star"</i> <i class="fa fa-star"</i> </div>';
     });
 }
@@ -70,5 +70,5 @@ function onResultPageLoad()
     loadResult(2, "pizza_loumalnatis");
     loadResult(3, "pizza_colutas");
     loadResult(4, "mexican_arandas");
-    loadResult(5, "chinese_chipsticks");
+    loadResult(5, "chinese_chopsticks");
 }
