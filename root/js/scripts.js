@@ -44,3 +44,31 @@ function searchFunction()
 {
     return true;
 }
+
+// result page ---------------------------------------------------------------------------
+function loadResult(resultNumber, resturantName)
+{
+    var resultIDPrefix = "result-search-result";
+
+    $.getJSON( "resources/data/" + resturantName + ".json", function( resturant )
+    {
+        var resultDiv = document.getElementById( resultIDPrefix + resultNumber.toString() );
+        var imageSource = "resources/images/" + resturant.image;
+        resultDiv.innerHTML = '<div class="w3-card" style="width:50%">';
+        resultDiv.innerHTML += '<p>' + resturant.name + '</p>';
+        resultDiv.innerHTML += '<img src=' + '"' + imageSource + '"' + 'class="home-img"' + 'style="float:left;display:inline;"'+ 'alt="' + resturant.imageSource + '">';
+        resultDiv.innerHTML += '<div style="float:left;display:inline;"> Call: ' + resturant.phone + '       <i class="fa fa-phone"</i></div>';
+        resultDiv.innerHTML += '<div style="float:left;display:inline;"> Reservere  <i class="fa fa-phone"</i></div>';
+        resultDiv.innerHTML += '<div style="clear:both;"> <i class="fa fa-star"</i> <i class="fa fa-star"</i> <i class="fa fa-star"</i> <i class="fa fa-star"</i> <i class="fa fa-star"</i> </div>';
+    });
+}
+
+
+function onResultPageLoad()
+{
+    loadResult(1, "pizza_mamaluna");
+    loadResult(2, "pizza_loumalnatis");
+    loadResult(3, "pizza_colutas");
+    loadResult(4, "mexican_arandas");
+    loadResult(5, "chinese_chipsticks");
+}

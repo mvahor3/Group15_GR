@@ -83,3 +83,19 @@ img
 
 /* end home-page styles */
 /* -----------------------------------*/
+
+/* result-page styles*/
+
+#result-search-container
+{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+
+.result-search-result
+{
+    padding: 10px;
+    width: 400px;
+    height: 200px;
+}

@@ -17,15 +17,38 @@
 
 <body class="body w3-text-theme w3-theme">
 
-    <div> bitch ass</div>
+    <div id="home-user-options">
+        <button type="submit"><i class="fa fa-star" onclick="searchFunction()"></i></button>
+        <button type="submit"><i class="fas fa-clock" onclick="searchFunction()"></i></button>
+        <button type="submit"><i class="fa fa-user-circle" onclick="searchFunction()"></i></button>
+    </div>
+
+    <div id="result-search-container" class="w3-theme">
+        <div id="result-search-result1" class="result-search-result">
+            result 1
+        </div>
+
+        <div id="result-search-result2" class="result-search-result">
+            result 2
+        </div>
+
+        <div id="result-search-result3" class="result-search-result">
+            result 3
+        </div>
+
+        <div id="result-search-result4" class="result-search-result">
+            result 4
+        </div>
+
+        <div id="result-search-result5" class="result-search-result">
+            result 5
+        </div>
+    </div>
 
     <script src="js/scripts.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript">
-    function loadPage() {
-        alert('ok');
-    }
-    window.onload = loadPage;
+    window.onload = onResultPageLoad;
     </script>
 </body>
 </html>
