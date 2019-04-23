@@ -127,3 +127,29 @@ img
     color: white;
     font-size: 24px;
 }
+
+/* restaurant-page styles*/
+
+#restaurant-trending
+{
+    position: absolute;
+    float: left;
+    top: 20%;
+    left: 25%;
+}
+
+
+#restaurant-app{
+    position: absolute;
+    float: left;
+    top: 45%;
+    left: 25%;
+}
+
+
+#restaurant-dessert{
+    position: absolute;
+    float: left;
+    top: 70%;
+    left: 25%;
+}
