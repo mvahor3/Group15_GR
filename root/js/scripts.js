@@ -69,11 +69,14 @@ function loadResult(resultNumber, resturantName)
     {
         var resultDiv = document.getElementById( resultIDPrefix + resultNumber.toString() );
         var imageSource = "resources/images/" + resturant.image;
-        resultDiv.innerHTML = '<div class="w3-card" style="width:50%">';
+        resultDiv.innerHTML = '<div class="w3-card" style="width:50%"' + `onclick="location.href='restaurant.html';"` + '>';
         resultDiv.innerHTML += '<p>' + resturant.name + '</p>';
         resultDiv.innerHTML += '<img src=' + '"' + imageSource + '"' + 'class="home-img"' + 'style="float:left;display:inline;"'+ 'alt="' + resturant.imageSource + '">';
+        resultDiv.innerHTML += '<span>';
         resultDiv.innerHTML += '<div style="float:left;display:inline;"> <p>Call: ' + resturant.phone + '<i class="fa fa-phone"<p></i></div>';
-        resultDiv.innerHTML += '<div style="float:left;display:inline;"> Reserve<i class="fa fa-phone"</i></div>';
+        resultDiv.innerHTML += '<br><br><div style="float:left;position:absolute;margin-left:100px;"> Reserve<i class="fa fa-clock-o"</i></div>';
+        resultDiv.innerHTML += '<br><div style="float:left;position:absolute;margin-left:300px;margin-top:-60px;width:600px"> Hours<br>' + resturant.hours + '<i class="fa fa-Clock"</i></div>';
+        resultDiv.innerHTML += '</span>';
         resultDiv.innerHTML += '<div style="clear:both;"> <i class="fa fa-star"</i> <i class="fa fa-star"</i> <i class="fa fa-star"</i> <i class="fa fa-star"</i> <i class="fa fa-star"</i> </div>';
     });
 }
