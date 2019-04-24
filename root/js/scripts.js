@@ -42,8 +42,8 @@ function onHomePageLoad()
 
 function getRandomResturant()
 {
-    var resturants = [ "burger_aucheval", "burger_bk", "burger_kumas", "burger_RHR", "burger_mcdonalds", "chinese_chopsticks" ];
-    var resturant = resturants[Math.floor(Math.random()*resturants.length)];
+    var resturants = [ "burger_aucheval", "burger_bk", "burger_kumas", "burger_RHR", "burger_mcdonalds", "chinese_chopsticks", "chinese_emperor", "chinese_joyyee", "chinese_panda", "chinese_threehappiness", "indian_bundoo", "indian_ghareeb", "indian_jk", "indian_sabri", "korean_abbq", "korean_bbq", "korean_crisp", "korean_delseoul", "korean_joong", "mexican_arandas", "mexican_julio", "mexican_loscomales", "mexican_mitierra", "mexican_taconazo", "pizza_artofpizza", "pizza_colutas", "pizza_loumalnatis", "pizza_mamaluna", "pizza_pequods" ];
+    var resturant = resturants[ Math.floor( Math.random() * resturants.length ) ];
     return resturant;
 }
 
