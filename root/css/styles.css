@@ -60,12 +60,14 @@
 {
     border: 2px solid;
     border-color: crimson;
+    cursor: pointer;
 }
 
 .home-arrow-button
 {
     float: left;
     vertical-align: middle;
+    cursor: pointer;
 }
 
 img
@@ -105,6 +107,7 @@ img
 {
     border: 2px solid;
     border-color: crimson;
+    cursor: pointer;
 }
 
 /*account */
@@ -153,3 +156,4 @@ img
     top: 70%;
     left: 25%;
 }
+
