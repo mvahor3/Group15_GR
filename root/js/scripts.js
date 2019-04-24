@@ -118,3 +118,13 @@ function onReservePageLoad()
     loadReservation(4, "mexican_arandas");
     loadReservation(5, "chinese_chopsticks");
 }
+
+// favorites page
+function onFavoritePageLoad()
+{
+    loadResult(1, "burger_bk");
+    loadResult(2, "indian_bundoo");
+    loadResult(3, "korean_abbq");
+    loadResult(4, "indian_jk");
+    loadResult(5, "chinese_joyyee");
+}
