@@ -31,7 +31,7 @@
     <div id="home-picks" class="w3-theme">
         <div id="home-staff-picks">
             <p class="home-pick-title">Staff Picks</p>
-            <div class="home-arrow-button">
+            <div class="home-arrow-button" onclick="randomizePicks('home-staff-picks')">
                 <button type="submit"><i class="fas fa-arrow-alt-circle-left" onclick="searchFunction()"></i></button>
             </div>
             <div class="home-slot-container">
@@ -39,11 +39,11 @@
                 <div onclick="location.href = 'restaurant.html';" id="home-staff-picks-slot2" class="home-pick-slot">test</div>
                 <div onclick="location.href = 'restaurant.html';" id="home-staff-picks-slot3" class="home-pick-slot">test</div>
             </div>
-            <div class="home-arrow-button">
+            <div class="home-arrow-button" onclick="randomizePicks('home-staff-picks')">
                 <button type="submit"><i class="fas fa-arrow-alt-circle-right" onclick="searchFunction()"></i></button>
             </div>
         </div>
-        <div id="home-trending-picks">
+        <div id="home-trending-picks" onclick="randomizePicks('home-trending-picks')">
             <p class="home-pick-title">Trending Picks</p>
             <div class="home-arrow-button">
                 <button type="submit"><i class="fas fa-arrow-alt-circle-left" onclick="searchFunction()"></i></button>
@@ -53,7 +53,7 @@
                 <div onclick="location.href = 'restaurant.html';" id="home-trending-picks-slot2" class="home-pick-slot">test</div>
                 <div onclick="location.href = 'restaurant.html';" id="home-trending-picks-slot3" class="home-pick-slot">test</div>
             </div>
-            <div class="home-arrow-button">
+            <div class="home-arrow-button" onclick="randomizePicks('home-trending-picks')">
                 <button type="submit"><i class="fas fa-arrow-alt-circle-right" onclick="searchFunction()"></i></button>
             </div>
         </div>

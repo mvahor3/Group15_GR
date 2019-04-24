@@ -40,6 +40,21 @@ function onHomePageLoad()
     loadPickCommon("home-trending-picks", "mexican_taconazo", "mexican_julio", "mexican_mitierra");
 }
 
+function getRandomResturant()
+{
+    var resturants = [ "burger_aucheval", "burger_bk", "burger_kumas", "burger_RHR", "burger_mcdonalds", "chinese_chopsticks" ];
+    var resturant = resturants[Math.floor(Math.random()*resturants.length)];
+    return resturant;
+}
+
+function randomizePicks(id)
+{
+    for(var j = 1; j <= 3; ++j)
+    {
+        loadSinglePick( id, j, getRandomResturant() );
+    }
+}
+
 function searchFunction()
 {
     return true;
