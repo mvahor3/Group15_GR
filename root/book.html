@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-orange.css">
+    <link rel="stylesheet" href="css/styles.css?v=1.0">
+    <title>Bundoo's Availability</title>
+    <meta name="description" content="The best DAMM food reivew site">
+    <meta name="author" content="Daniel, Allan, Moin, Marquise">
+</head>
+<body class="body w3-text-theme w3-theme">
+
+    <div id="home-user-options">
+        <button onclick="location.href = 'index.html';" type="submit"><i class="fas fa-home" onclick="searchFunction()"></i></button>
+        <button onclick="location.href = 'favorites.html';" type="submit"><i class="fa fa-star" onclick="searchFunction()"></i></button>
+        <button onclick="location.href = 'reserved.html';" type="submit"><i class="fas fa-clock" onclick="searchFunction()"></i></button>
+        <button onclick="location.href = 'account.html';" type="submit"><i class="fa fa-user-circle" onclick="searchFunction()"></i></button>
+    </div>
+    <div id="home-title">Bundoo's Availability</div>
+
+    <div id="book-picks" class="w3-theme">
+            <img src='resources/images/table.png' style="float:left;display:inline;" id="book-table-image">
+            <div id="book-trending">
+                <p class="book-pick-title-trend">Tables</p>
+                <div class="book-pick-container">
+                    <div onclick="location.href = 'reserved.html';" id="book-trending-picks-slot1" class="book-time-slot">1:15 PM</div>
+                    <div onclick="location.href = 'reserved.html';" id="book-trending-picks-slot2" class="book-time-slot">2:45 PM</div>
+                    <div onclick="location.href = 'reserved.html';" id="book-trending-picks-slot3" class="book-time-slot">7:30 PM</div>
+                </div>
+            </div>
+
+            <img src='resources/images/booth.png' style="float:left;display:inline;" id="book-booth-image">
+            <div id="book-app">
+                <p class="book-pick-title-app">Booths</p>
+                    <div class="book-app-container">
+                        <div onclick="location.href = 'reserved.html';" id="book-app-slot1" class="book-time-slot">4:30 PM</div>
+                        <div onclick="location.href = 'reserved.html';" id="book-app-slot2" class="book-time-slot">5:15 PM</div>
+                        <div onclick="location.href = 'reserved.html';" id="book-app-slot3" class="book-time-slot">6:00 PM</div>
+                    </div>
+            </div>
+    </div>
+</body>
+</html>

@@ -155,3 +155,53 @@ img
     left: 25%;
 }
 
+/* book-page styles*/
+
+#book-trending
+{
+    position: absolute;
+    float: left;
+    top: 20%;
+    left: 45%;
+}
+
+
+#book-app
+{
+    position: absolute;
+    float: left;
+    top: 45%;
+    left: 45%;
+}
+
+
+#book-dessert
+{
+    position: absolute;
+    float: left;
+    top: 70%;
+    left: 45%;
+}
+
+#book-table-image
+{
+    position: absolute;
+    float: left;
+    top: 25%;
+    left: 55%;
+}
+
+#book-booth-image
+{
+    position: absolute;
+    float: left;
+    top: 50%;
+    left: 55%;
+}
+
+.book-time-slot:hover
+{
+    color:white;
+    cursor: pointer;
+}
+
